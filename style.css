@@ -1,0 +1,53 @@
+ /* ORIGINAL TASK PUPILS STARTED WITH
+Full credit to code.org for task */
+
+/*Specify image size*/
+img {
+  width: 200px;
+  height: 160px;
+}
+/*Give the body a text align of center, a font family of trebuchet and a background color of deep sky blue*/
+body{
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: deepskyblue;
+}
+/*Style the wave, with color, position etc.*/
+.wave{
+  border: 1px solid black;
+  background-color: skyblue;
+  height: 20px;
+  width: 80%;
+  position: relative;
+  left: 10%;
+  transition: height 4s;
+  display: block;
+  overflow: hidden;
+  text-align: center;
+}
+/*Give h2 font size and align*/
+h2{
+  font-size: 15px;
+  vertical-align: text-top;
+}
+/*Style pet wave, give transition time and height*/
+#pet {
+  transition: height 4s;
+  height: 30px;
+}
+/*Style pet wave when hover, height and z index*/
+#pet:hover{
+  height: 400px;
+  z-index: 1;
+}
+/*Style pet wave, give transition time and height, add gradient*/
+#pet1 {
+  transition: height 4s;
+  height: 30px;
+  background-image:repeating-linear-gradient(deepskyblue, skyblue);
+}
+/*Style pet wave when hover, height and z index*/
+#pet1:hover{
+  height: 400px;
+  z-index: 1;
+}
